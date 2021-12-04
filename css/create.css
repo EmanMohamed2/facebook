@@ -1,0 +1,150 @@
+body{
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240,242,245) ;
+}
+.container{
+    margin: auto;
+}
+.logo{
+    padding-top: 5px;
+    text-align: center;
+}
+img{
+    height: 100px;
+}
+h1 {
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    Color:#1c1e21;
+    margin-bottom: 0;
+    
+}
+hr{
+    background-color: #f5f1f1;  
+    border: 1px solid #f5f1f1;
+    margin:4px 0 8px;
+}
+.easy{
+    font-family: "SFProDisplay-Bold", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    Color:#606770;
+    margin: 0;
+}
+.form-create{
+    padding-top:5px ;
+    margin: auto;
+    width: 430px;
+    background-color: white;
+    height: 580px;
+    border-radius: 15px;
+    
+}
+input{
+     border: 2px solid rgb(202, 202, 202);
+     display: block;
+}
+[type="text"]{
+    display: inline-block;
+    width: 164px;
+    padding: 12px 12px;
+    border-radius: 7px;
+}
+[name="fname"]{
+    margin:  5px 2px 5px  15px;
+}
+[name="lastname"]{
+    margin:  5px 15px 5px  10px;
+}
+[type="date"],
+[type="email"],[type="password"]{
+    display: inline-block;
+    width: 370px;
+    padding: 10px 12px;
+    margin: 5px 5px 5px  15px;
+    border-radius: 10px;
+}
+[type="submit"]{
+    color: #ffffff;
+    font-weight: 700;
+    font-family:  Helvetica , Arial, sans-serif;
+    font-size:18px ;
+    line-height: 23px;
+    border-radius: 7px;
+    margin: 15px auto;
+    width: 200px;
+    background-color: #65B82C;
+    padding:8px 20px;
+}
+label{
+    margin-left:15px;
+    display: block;
+    font-family: "SFProDisplay-Bold", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    Color:#606770;
+}
+.radio
+{
+    width: 100px;
+    padding:5px 10px;
+    border: 1px solid black;
+    float: left;
+    margin-left:  15px;
+    border-radius: 7px;
+    border: 2px solid rgb(202, 202, 202);
+}
+[type="radio"]{
+    display: inline;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+input::placeholder{
+    font-family:  Helvetica , Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #898a8d;
+}
+#text-in-down{
+    font-family: "SFProDisplay-Bold", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    Color:#777777;
+    margin: 8px 15px;
+}
+#text-under-content, #text-under-content a {
+    font-Family:"SFProText-Semibold", Helvetica, Arial, sans-serif;
+    font-Style:normal;
+    font-Weight:400;
+    font-Size:17px;
+    Line-Height:20px;
+    Color:#1877f2;
+    text-align: center;
+   text-decoration: none;
+}
+#privacy{
+  text-decoration: none;  
+  Color:#13498f;
+}
+#privacy:hover{
+    text-decoration: underline;
+}
+.footer{
+    background-color: white;
+    height: 200px;
+    margin-top: 60px;
+}

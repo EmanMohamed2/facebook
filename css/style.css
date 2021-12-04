@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(240,242,245) ;
+}
+.left-side{
+    float: left;
+    width: 50%;
+    height: 700px;
+}
+.right-side{
+    width: 50%;
+    height: 700px;
+    float: left;
+    position: relative;
+}
+.content-left{
+    width: 400px;
+    padding:30px 60px 30px 20px;
+    position: absolute;
+    top:150px;
+    left:90px
+}
+.content-right{
+    background-color: white;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 0 0 rgb(240,242,245);
+    padding:20px 60px 30px 20px;
+    border-radius: 10px;
+    position: absolute;
+    top:100px;
+    left:65px
+}
+form{margin-bottom: 20px;
+display: block;}
+h1{
+    color: #1877F2;
+    font-family: Helvetica, Arial,sans-serif ;
+    font-size: 50PX;
+}
+.text-left{
+    font-family: "SFProDisplay-Regular ", Helvetica , Arial, sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 32px;
+    color: #1c1e21;
+}
+input{
+    padding: 15px ;
+    width:350px;
+    margin:5px 0px 15px 0px;
+    border-radius: 10px;
+    border: 2px solid rgb(202, 202, 202);
+}
+input::placeholder{
+    font-family: "SFProDisplay-Regular ", Helvetica , Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    color: #898a8d;
+}
+.submit{
+    width: 385px;
+    margin:5px 0px 0px 0px;
+    background-color: #1877F2;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.btn-under{
+    color: #1877f2;
+    font-weight: 500;
+    font-family:  Helvetica , Arial, sans-serif;
+    font-size:15px ;
+    line-height: 20px;
+    text-decoration: none;
+    width: 200px;
+  /*  margin:30px 97px;*/
+}
+hr{
+    display: block;
+    margin: 20px 5px 30px;
+    color: #edf0f3;
+    width: 380px;
+}
+a:hover{
+    text-decoration: underline;
+}
+input:focus{
+    border: 2px solid #1877F2;
+    outline: none;
+}
+.btn{ 
+    color: #ffffff;
+    font-weight: 700;
+    font-family:  Helvetica , Arial, sans-serif;
+    font-size:18px ;
+    line-height: 48px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 40px;
+    background-color: #65B82C;
+    padding: 20px;
+}
+.btn:hover{
+    text-decoration: none;
+}
+.under-form{
+    font-Family:"SFProText-Regular ", Helvetica , Arial, sans-serif;
+    font-Weight:400;
+    font-Size:15px;
+    Line-Height:20px;
+    Color:#1c1e21;
+    position: absolute;
+    top:500px;
+    left:65px
+}
+b{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+a{
+     text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    background-color: white;
+    height: 200px;
+}

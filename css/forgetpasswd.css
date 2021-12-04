@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(240,242,245) ;
+    margin: 0px;
+}
+.header{
+    background-color: #FFFFFF;
+    height: 60px;
+}
+h1 {
+    font-family:  Helvetica , Arial, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    float: left;
+    width: 130px;
+    color: #1877F2;
+    padding: 5px;
+    margin: 5px 10px 10px 30px;
+}
+h1 a{
+    text-decoration: none;
+     color: #1877F2;
+}
+h1 a:hover{
+     text-decoration: none;
+}
+.form-forget{
+    float: right;
+    width: 51%;
+    position: relative;
+}
+.input-forget{
+    padding:10px ;
+    width:170px;
+    margin:5px 10px 5px 0px;
+    border-radius: 5px;
+    border: 2px solid rgb(202, 202, 202);
+    float: left;
+}
+input::placeholder{
+    font-family:  Helvetica , Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #898a8d;
+}
+a:hover{
+    text-decoration: underline;
+}
+input:focus{
+    border: 2px solid #1877F2;
+    outline: none;
+}
+.btn{ 
+    float: left;
+    color: #ffffff;
+    font-weight: 700;
+    font-family:  Helvetica , Arial, sans-serif;
+    font-size:18px ;
+    line-height: 20px;
+    border-radius: 5px;
+    border:none ;
+    text-decoration: none;
+    margin:5px 10px 5px 5px;
+    background-color: #1877F2;
+    padding: 10px 10px;
+}
+.research:hover,.cancel:hover,.btn:hover{
+    text-decoration: none;
+}
+.btn-under{
+    color: #1877f2;
+    font-weight: 400;
+    font-family:  Helvetica , Arial, sans-serif;
+    font-size:15px ;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin:50px 5px 5px 5px;
+    position: absolute;
+    top: -45px;
+    right: 15px;
+ 
+}
+.forget-account{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin: 70px auto;
+    border-radius: 5px;
+}
+h2{
+    font-weight: 600;
+    font-family:  Helvetica , Arial, sans-serif;
+    font-size:21px ;
+    line-height: 24px;
+    color: #162643;
+    padding: 10px;
+    margin: 5px;
+
+}
+.text-before-form{
+    font-weight: 400;
+    font-family:  Helvetica , Arial, sans-serif;
+    font-size:17px ;
+    line-height: 20px;
+    color: #1c1e21;
+    padding: 10px;
+    margin: 5px;
+}
+hr{
+    background-color: #f5f1f1;  
+    border: 1px solid #f5f1f1;
+    margin:15px 0;
+}
+.forget-account [type="text"]{
+    width: 450px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #e4e2e2;
+    margin: 5px 10px;
+}
+.cancel{
+    color: black;
+    background-color: #E4E6EB;
+    padding: 10px 5px;
+}
+.research{
+    color: white;
+    background-color: #1877F2;
+    padding: 10px 5px;
+}
+.research,.cancel{
+    float: right;
+    font-weight: 700;
+    font-family:  Helvetica , Arial, sans-serif;
+    font-size:18px ;
+    line-height: 20px;
+    border-radius: 10px;
+    border:none ;
+    text-decoration: none;
+    text-align: center;
+    margin:5px 10px 5px 5px;
+    width: 100px;
+}
+footer{
+    height: 300px;
+    background-color: white;
+}
